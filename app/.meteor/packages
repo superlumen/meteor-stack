@@ -27,7 +27,8 @@ react-meteor-data       # Meteor mixin for reactive data in React
 reywood:publish-composite   # Publication for multiple collections
 dburles:collection-helpers  # Collection helper methods
 
-kadira:flow-router-ssr  # FlowRouter with ssr, can be replaced without ssr
+kadira:flow-router-ssr  # FlowRouter with ssr
+# kadira:flow-router    # For use without ssr
 
 semantic:ui             # Styling with semantic and less
 flemay:less-autoprefixer  # Less version for semantic:ui
@@ -35,3 +36,12 @@ flemay:less-autoprefixer  # Less version for semantic:ui
 # prototyping, to be removed
 autopublish             # Publish all data to the clients (for prototyping)
 insecure                # Allow all DB writes from clients (for prototyping)
+
+# optional, useful
+# email                 # Send emails with meteor
+# http                  # HTTP requests
+# lepozepo:cloudinary   # image cloud upload
+# risul:accounting      # Formatting for prices etc.
+# mrgalaxy:stripe       # Payment integration with stripe
+# matb33:collection-hooks # Collection lifecycle hooks
+
