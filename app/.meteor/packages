@@ -44,4 +44,5 @@ insecure                # Allow all DB writes from clients (for prototyping)
 # risul:accounting      # Formatting for prices etc.
 # mrgalaxy:stripe       # Payment integration with stripe
 # matb33:collection-hooks # Collection lifecycle hooks
-
+# astronomerio:core     # Analytics integration through astronomer.io
+# tmeasday:publish-counts # Count documents in publications

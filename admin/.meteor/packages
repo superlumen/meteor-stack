@@ -25,5 +25,13 @@ kadira:flow-router
 kadira:blaze-layout
 arillo:flow-router-helpers
 
+accounts-password
+alanning:roles
+
+aldeed:simple-schema
+aldeed:collection2
+aldeed:autoform
+aldeed:tabular          # Paginated tables for collections
+
 autopublish             # Publish all data to the clients (for prototyping)
 insecure                # Allow all DB writes from clients (for prototyping)

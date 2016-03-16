@@ -1,7 +1,11 @@
 # Meteor 1.3 Boilerplate created by Superlumen
 
+We use React for the Frontend and Blaze with Autoform for an easy to build admin project.
+We try to install most packages through npm. No need for wrapper packages (atmosphere).
+This improves meteor reload time.
+
 ## Basics
-* Meteor 1.3
+* Meteor 1.3 with npm and modules
 * React
 * Semantic UI
 
