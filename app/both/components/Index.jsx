@@ -6,7 +6,6 @@ export default class Index extends React.Component {
   render() {
     return (
       <div>
-        <Header/>
         <div className="ui container">
           <div className="ui segment">
             <div>This is the start page of the superlumen boilerplate.</div>
