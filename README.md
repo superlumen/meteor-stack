@@ -5,17 +5,21 @@ We try to install most packages through npm. No need for wrapper packages (atmos
 This improves meteor reload time.
 
 ## Basics
+
 * Meteor 1.3 with npm and modules
 * React
 * Semantic UI
 
 ## Structure
+
 ### app
+
 * Frontend application
 * React with ssr
 * Semantic UI (customizable)
 
 ### admin
+
 * Admin area
 * Blaze templates for easy integration with autoform
 * Semantic UI (CSS only version)
