@@ -21,6 +21,6 @@ Package.onUse(function(api) {
   ])
 
   api.export('MyCollection')
-  api.addFiles('myCollection.collection.both.coffee')
+  api.addFiles('MyCollection.collection.both.coffee')
 
 })
