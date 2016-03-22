@@ -4,8 +4,8 @@ import React from 'react'
 import { mount } from 'react-mounter'
 
 // Import components used by the router
-import Layout from './components/Layout.jsx'
-import Index from './components/Index.jsx'
+import Layout from './components/Layout.component.both.jsx'
+import Index from './components/Index.component.both.jsx'
 
 // Group public routes
 const router = FlowRouter.group({})

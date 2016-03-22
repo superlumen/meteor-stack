@@ -1,0 +1,21 @@
+{
+  "name": "meteor-boilerplate",
+  "version": "0.0.1",
+  "description": "Meteor boilerplate from superlumen",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bin/run-app.sh",
+    "admin": "bin/run-admin.sh",
+    "postinstall": "cd app/ && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superlumen/meteor-boilerplate.git"
+  },
+  "author": "superlumen.io",
+  "license": "AGPL",
+  "bugs": {
+    "url": "https://github.com/superlumen/meteor-boilerplate/issues"
+  },
+  "homepage": "https://github.com/superlumen/meteor-boilerplate#readme"
+}

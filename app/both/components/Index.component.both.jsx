@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Header from './Header.jsx'
+import Header from './Header.component.both.jsx'
 
 export default class Index extends React.Component {
   render() {
@@ -9,7 +9,7 @@ export default class Index extends React.Component {
         <div className="ui container">
           <div className="ui segment">
             <div>This is the start page of the superlumen boilerplate.</div>
-            <div>To change it edit <code>app/both/components/Index.jsx</code>
+            <div>To change it edit <code>app/both/components/Index.component.both.jsx</code>
             </div>
           </div>
         </div>
