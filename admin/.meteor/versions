@@ -90,6 +90,9 @@ standard-minifier-css@1.0.4-rc.4
 standard-minifier-js@1.0.4-rc.4
 superlumen:assert@0.0.1
 superlumen:base@0.0.6
+superlumen:logging@0.0.1
+superlumen:meteor-winston@0.0.1
+superlumen:meteor-winston-papertrail@0.0.1
 templating@1.1.7-rc.4
 templating-tools@1.0.2-rc.4
 tracker@1.0.11-rc.4
