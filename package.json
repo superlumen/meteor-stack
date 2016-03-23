@@ -1,7 +1,7 @@
 {
-  "name": "meteor-boilerplate",
+  "name": "meteor-stack",
   "version": "0.0.1",
-  "description": "Meteor boilerplate from superlumen",
+  "description": "Opinionated Meteor stack from superlumen.io",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "bin/run-app.sh",
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/superlumen/meteor-boilerplate.git"
+    "url": "git+https://github.com/superlumen/meteor-stack.git"
   },
   "author": "superlumen.io",
   "license": "AGPL",
   "bugs": {
-    "url": "https://github.com/superlumen/meteor-boilerplate/issues"
+    "url": "https://github.com/superlumen/meteor-stack/issues"
   },
-  "homepage": "https://github.com/superlumen/meteor-boilerplate#readme"
+  "homepage": "https://github.com/superlumen/meteor-stack#readme"
 }
