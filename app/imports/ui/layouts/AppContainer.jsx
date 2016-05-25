@@ -1,15 +1,19 @@
-import React from 'react'
-import Header from '/imports/ui/layouts/Header'
+import React from "react"
+import { Provider } from "react-redux"
+import Header from "/imports/ui/layouts/Header"
+import store from "/imports/state/store"
 
 export default class AppContainer extends React.Component {
   render() {
     return (
-      <div>
-        <Header/>
-        <div className="ui container">
-          {this.props.children}
+      <Provider store={store}>
+        <div>
+          <Header/>
+          <div className="ui container">
+            {this.props.children}
+          </div>
         </div>
-      </div>
+      </Provider>
     )
   }
 }
