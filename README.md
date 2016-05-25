@@ -12,7 +12,7 @@ This improves meteor reload time.
 
 ## Structure
 
-See the [Meteor Guide](https://guide.meteor.com/) for the recommended code layout conventions.
+See the [Meteor Guide](http://guide.meteor.com/) for the recommended code layout conventions.
 
 ~~Check out the [superlumen naming conventions](https://github.com/superlumen/knowledge/wiki/Naming-Conventions) doc. It's a good starting point to follow.~~
 
