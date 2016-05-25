@@ -21,6 +21,8 @@ superlumen:base         # Superlumen base package
 superlumen:logging      # Winston, papertrail, and log methods
 
 accounts-password       # Account package
+std:accounts-ui         # Accounts UI for React
+std:accounts-semantic   # SemanticUI version of accounts
 alanning:roles          # Roles
 
 react-meteor-data       # Meteor mixin for reactive data in React
