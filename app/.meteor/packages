@@ -28,8 +28,8 @@ react-meteor-data       # Meteor mixin for reactive data in React
 reywood:publish-composite   # Publication for multiple collections
 dburles:collection-helpers  # Collection helper methods
 
-kadira:flow-router-ssr  # FlowRouter with ssr
-# kadira:flow-router    # For use without ssr
+kadira:flow-router    # For use without ssr
+#kadira:flow-router-ssr  # FlowRouter with ssr
 
 semantic:ui             # Styling with semantic and less
 flemay:less-autoprefixer  # Less version for semantic:ui
