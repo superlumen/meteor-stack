@@ -36,6 +36,8 @@ kadira:flow-router    # For use without ssr
 semantic:ui             # Styling with semantic and less
 flemay:less-autoprefixer  # Less version for semantic:ui
 
+apollo                  # Apollo stack with graphql
+
 # prototyping, to be removed
 autopublish             # Publish all data to the clients (for prototyping)
 insecure                # Allow all DB writes from clients (for prototyping)
