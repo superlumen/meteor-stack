@@ -3,17 +3,24 @@ import { Provider } from "react-redux"
 import Header from "/imports/ui/layouts/Header"
 import store from "/imports/state/store"
 
-export default class AppContainer extends React.Component {
+import { ApolloProvider } from 'react-apollo'
+
+import ApolloClient from 'apollo-client'
+import {meteorClientConfig} from 'meteor/apollo'
+
+const client = new ApolloClient(meteorClientConfig)
+
+export default class App extends React.Component {
   render() {
     return (
-      <Provider store={store}>
+      <ApolloProvider store={store} client={client}>
         <div>
           <Header/>
           <div className="ui container">
             {this.props.children}
           </div>
         </div>
-      </Provider>
+      </ApolloProvider>
     )
   }
 }
