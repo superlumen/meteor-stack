@@ -17,7 +17,7 @@ export const schema = [`
 
 export const resolvers = {
   Query: {
-    async tasks(root, args) {
+    async tasks(root, args, context) {
       return await Tasks.find().fetch()
     }
   }

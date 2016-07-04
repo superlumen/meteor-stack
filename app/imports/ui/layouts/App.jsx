@@ -5,15 +5,12 @@ import store from "/imports/state/store"
 
 import { ApolloProvider } from 'react-apollo'
 
-import ApolloClient from 'apollo-client'
-import {meteorClientConfig} from 'meteor/apollo'
-
-const client = new ApolloClient(meteorClientConfig)
+import apolloClient from '/imports/apollo/apollo.client.js'
 
 export default class App extends React.Component {
   render() {
     return (
-      <ApolloProvider store={store} client={client}>
+      <ApolloProvider store={store} client={apolloClient}>
         <div>
           <Header/>
           <div className="ui container">
