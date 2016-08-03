@@ -1,5 +1,8 @@
 # Meteor 1.3 stack by superlumen
 
+## Important
+There is an issue with std:accounts-ui and react 15.2.0. Until that gets fixed use react 15.1.0.
+
 We use React and related packages.
 We try to install most packages through npm. No need for wrapper packages (atmosphere).
 This improves meteor reload time.
