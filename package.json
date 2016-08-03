@@ -4,7 +4,7 @@
   "description": "Opinionated Meteor stack from superlumen.io",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "bin/run-app.sh",
+    "start": "cd app/ && npm install && meteor run --settings settings.json",
     "admin": "bin/run-admin.sh",
     "postinstall": "cd app/ && npm install"
   },
