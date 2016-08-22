@@ -12,7 +12,6 @@ session@1.1.6                 # Client-side reactive dictionary for your app
 jquery@1.11.9                  # Helpful client-side library
 tracker@1.1.0                 # Meteor's client-side reactive programming library
 
-standard-minifier-css@1.2.0   # CSS minifier run for production mode
 standard-minifier-js@1.2.0    # JS minifier run for production mode
 es5-shim@4.6.14                # ECMAScript 5 compatibility for older browsers.
 ecmascript@0.5.8              # Enable ECMAScript2015+ syntax in app code
@@ -33,7 +32,8 @@ kadira:flow-router    # For use without ssr
 #kadira:flow-router-ssr  # FlowRouter with ssr
 
 semantic:ui             # Styling with semantic and less
-flemay:less-autoprefixer  # Less version for semantic:ui
+juliancwirko:postcss
+less
 
 # prototyping, to be removed
 autopublish@1.0.7             # Publish all data to the clients (for prototyping)
