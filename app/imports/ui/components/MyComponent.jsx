@@ -5,15 +5,15 @@ import { incrementCount } from "/imports/state/actions"
 class MyComponent extends React.Component {
   render() {
     return (
-      <div className="ui segment">
+      <div>
         MyComponent
-        <div className="ui stats">
-          <div className="ui statistic">
-            <div className="value">
+        <div>
+          <div>
+            <div>
               {this.props.count}
             </div>
           </div>
-          <div className="ui primary button"
+          <div>
                onClick={this.props.increment.bind(null, 1)}>
             + 1
           </div>

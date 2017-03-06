@@ -1,13 +1,19 @@
 import React from 'react'
+import { Link } from 'react-router'
 
-export default class Header extends React.Component {
-  render() {
-    return (
-      <div className="ui large borderless menu">
-        <div className="ui container">
-          <a href={FlowRouter.path('index')} className="item">Superlumen</a>
-        </div>
-      </div>
-    )
+export default () => {
+  return (
+      <div style={style.header}>
+        <Link to="/"
+              className="item">Superlumen</Link>
+    </div>
+  )
+}
+
+const style = {
+  header: {
+    fontSize: 24,
+    padding: 10,
+    borderBottom: '1px solid silver'
   }
 }
