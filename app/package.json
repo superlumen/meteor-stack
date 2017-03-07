@@ -4,14 +4,14 @@
   "version": "0.0.1",
   "main": "boilerplate.js",
   "scripts": {
-    "start": "meteor run"
+    "start": "cd app/ && mpm meteor install && meteor run"
   },
   "dependencies": {
     "babel-runtime": "^6.23.0",
     "bcrypt": "^0.8.7",
     "meteor-node-stubs": "^0.2.3",
     "moment": "^2.13.0",
-    "react": "^15.1.0",
+    "react": "^15.4.2",
     "react-addons-pure-render-mixin": "^15.1.0",
     "react-dom": "^15.4.2",
     "react-helmet": "^3.1.0",
