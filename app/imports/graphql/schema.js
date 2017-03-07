@@ -1,3 +1,5 @@
+import resourceSchema from '/imports/api/resource/resource.schema'
+
 const schema = [`
   type User {
     _id: ID!
@@ -19,11 +21,6 @@ const schema = [`
     abstract: String
   }
  
-  
-  type Query {
-    allResources: [String] 
-  }
-
   scalar Date
 
   schema {
@@ -31,4 +28,4 @@ const schema = [`
   }
 `]
 
-export const typeDefs = [schema]
+export const typeDefs = [schema, resourceSchema]

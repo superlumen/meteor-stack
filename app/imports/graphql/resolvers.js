@@ -1,4 +1,5 @@
 import { merge } from 'lodash'
+import resourceResolvers from '/imports/api/resource/resource.resolver'
 
 const rootResolvers = {
 
@@ -20,6 +21,7 @@ const rootResolvers = {
 
 export const resolvers = merge(
   rootResolvers,
-//  Add more modular resolvers
+  resourceResolvers
+  //  Add more modular resolvers
 )
 
