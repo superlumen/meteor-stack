@@ -6,6 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd app/ && npm install && meteor run --settings settings.json",
     "admin": "bin/run-admin.sh",
+    "mongo": "cd app && meteor mongo",
     "postinstall": "cd app/ && npm install"
   },
   "repository": {
