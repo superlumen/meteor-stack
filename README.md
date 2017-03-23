@@ -22,3 +22,7 @@ We try to install most packages through npm. No need for wrapper packages (atmos
 ## How to start the app?
 
 To start the app, run `meteor npm run start` in the root.
+
+## Code style
+
+Use [prettier](https://github.com/prettier/prettier). Use the default settings. Move on with your life and be productive.
