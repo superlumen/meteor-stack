@@ -4,4 +4,4 @@
 // import parentPath from '../selectorPath'
 
 // Export the parent path with this path appended
-export default ''
+export default "";

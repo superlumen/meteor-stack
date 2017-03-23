@@ -1,5 +1,5 @@
-import { Meteor } from 'meteor/meteor'
+import { Meteor } from "meteor/meteor";
 
 export default {
-  isDev: Meteor.isDevelopment,
-}
+  isDev: Meteor.isDevelopment
+};

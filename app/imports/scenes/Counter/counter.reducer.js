@@ -1,16 +1,16 @@
-import * as ActionTypes from './counter.actions'
+import * as ActionTypes from "./counter.actions";
 
-const empty = 0
+const empty = 0;
 
-const reducer = function (state = empty, action) {
-  const { type, payload } = action
+const reducer = function(state = empty, action) {
+  const { type, payload } = action;
 
   if (type === ActionTypes.INCREMENT) {
-    const { count } = payload
-    return state + count
+    const { count } = payload;
+    return state + count;
   }
 
-  return state
-}
+  return state;
+};
 
-export default reducer
+export default reducer;

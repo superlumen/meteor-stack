@@ -1,11 +1,11 @@
-import React from "react"
-import { connect } from "react-redux"
+import React from "react";
+import { connect } from "react-redux";
 
-import { incrementCount } from "./counter.actions"
-import { countSelector } from "./counter.selectors"
+import { incrementCount } from "./counter.actions";
+import { countSelector } from "./counter.selectors";
 
 const Counter = function(props) {
-  const { count, incrementCount } = props
+  const { count, incrementCount } = props;
 
   return (
     <div className="ui segment">
@@ -30,19 +30,19 @@ const Counter = function(props) {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 function mapStatesToProps(state) {
   return {
-    count: countSelector(state),
-  }
+    count: countSelector(state)
+  };
 }
 
 function mapDispatchToProps(dispatch) {
   return {
-    incrementCount: (count) => dispatch(incrementCount(count)),
-  }
+    incrementCount: count => dispatch(incrementCount(count))
+  };
 }
 
-export default connect(mapStatesToProps, mapDispatchToProps)(Counter)
+export default connect(mapStatesToProps, mapDispatchToProps)(Counter);

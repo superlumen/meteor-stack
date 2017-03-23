@@ -1,12 +1,12 @@
-import { REHYDRATE } from 'redux-persist/constants'
+import { REHYDRATE } from "redux-persist/constants";
 
 const reducer = function(state = false, action) {
-  const { type } = action
+  const { type } = action;
   if (type === REHYDRATE) {
-    return true
+    return true;
   }
 
-  return state
-}
+  return state;
+};
 
-export default reducer
+export default reducer;

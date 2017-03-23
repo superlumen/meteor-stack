@@ -1,28 +1,31 @@
-import _ from 'lodash'
+import _ from "lodash";
 
-import { createStore, applyMiddleware, compose } from 'redux';
-import thunk from 'redux-thunk'
-import createLogger from 'redux-logger';
+import { createStore, applyMiddleware, compose } from "redux";
+import thunk from "redux-thunk";
+import createLogger from "redux-logger";
 // We don't always need redux persistence
 // import { persistStore, autoRehydrate } from 'redux-persist'
 
-import rootReducer from './root.reducer'
+import rootReducer from "./root.reducer";
 
-import config from '/imports/config'
+import config from "/imports/config";
 
 // import analytics from './analytics.middleware'
 
 // Create an array of middlewares so we can conditionally add the logger
-let middlewares = [thunk]
+let middlewares = [thunk];
 
 // In dev, add the logger
-if (_.get(config, 'isDev', false)) {
-  const logger = createLogger()
-  middlewares.push(logger)
+if (_.get(config, "isDev", false)) {
+  const logger = createLogger();
+  middlewares.push(logger);
 }
 
-const Store = createStore(rootReducer, {}, compose(
-  /*
+const Store = createStore(
+  rootReducer,
+  {},
+  compose(
+    /*
   autoRehydrate({
     // This logs the rehydration process which is helpful during debuggin
     log: true,
@@ -32,9 +35,10 @@ const Store = createStore(rootReducer, {}, compose(
     stateReconciler: (state, inboundState) => inboundState,
   }),
   */
-  applyMiddleware(...middlewares),
-  window.devToolsExtension ? window.devToolsExtension() : f => f
-));
+    applyMiddleware(...middlewares),
+    window.devToolsExtension ? window.devToolsExtension() : f => f
+  )
+);
 
 // persistStore(Store, {
 //   // Use localforge which in turn uses
@@ -45,4 +49,4 @@ const Store = createStore(rootReducer, {}, compose(
 //   //blacklist,
 // })
 
-export default Store
+export default Store;

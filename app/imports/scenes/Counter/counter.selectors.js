@@ -1,8 +1,8 @@
-import _ from 'lodash'
+import _ from "lodash";
 
 // The path to this part of the state tree
-import path from '../selectorPath'
+import path from "../selectorPath";
 
-export const countSelector = (state) => {
-  return _.get(state, path + 'counter')
-}
+export const countSelector = state => {
+  return _.get(state, path + "counter");
+};
